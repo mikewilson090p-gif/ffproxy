@@ -1,0 +1,7 @@
+-keep class org.littleshoot.** { *; }
+-keep class io.netty.** { *; }
+-keep class org.bouncycastle.** { *; }
+-dontwarn org.slf4j.**
+-dontwarn io.netty.**
+-dontwarn org.bouncycastle.**
+-dontwarn javax.**
